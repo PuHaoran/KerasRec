@@ -1,3 +1,9 @@
 .idea/
 data/
 .ipynb_checkpoints/
+rank/lgb_models/best_iters.pkl
+rank/lgb_models/model_kf_0.txt
+rank/lgb_models/model_kf_1.txt
+rank/lgb_models/model_kf_2.txt
+rank/lgb_models/model_kf_3.txt
+rank/lgb_models/model_kf_4.txt
