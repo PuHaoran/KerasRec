@@ -13,8 +13,8 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 def test_job(path):
     t = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-    f = open(path, 'w')
-    f.write(t)
+    f = open(path, 'a')
+    f.write(t + '\n')
     f.close()
     print("test job ", t)
 
