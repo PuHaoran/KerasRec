@@ -17,7 +17,9 @@ MySQL(date/timestamp) --> Hive(string)
 
 二、通过flume实时收集服务器中的日志到hdfs。（省去该步骤，直接通过增量导入方式实现。）
 
-
+三、物品画像计算。
+1）建立item_profile表。
+2）tfidf+textrank的top20共现词作为关键词，先全量计算，然后每隔1小时增量计算一次。
 
 
 git fetch --all
