@@ -30,3 +30,10 @@ click_date STRING comment "click_date")
 COMMENT "ml1m user_action"
 row format delimited fields terminated by ','
 LOCATION '/user/hive/warehouse/ml1m.db/user_action';
+
+create table item_profile(
+item_id BIGINT comment "item_id",
+topics ARRAY comment "topics",
+COMMENT "ml1m item_profile"
+row format delimited fields terminated by ','
+LOCATION '/user/hive/warehouse/ml1m.db/item_profile';

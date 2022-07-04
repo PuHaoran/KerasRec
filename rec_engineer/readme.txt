@@ -24,3 +24,11 @@ MySQL(date/timestamp) --> Hive(string)
 
 git fetch --all
 git reset --hard origin/master
+
+pycharm使用远程spark环境。
+PYTHONUNBUFFERED=1
+JAVA_HOME=/usr/local/bigdata/jdk1.8.0
+SPARK_HOME=/usr/local/bigdata/spark-2.1.1-bin-hadoop2.7
+HADOOP_HOME=/usr/local/bigdata/hadoop-2.7.7
+PYSPARK_PYTHON=/root/anaconda3/envs/py36/bin/python
+PYSPARK_DRIVER_PYTHON=/root/anaconda3/envs/py36/bin/python
